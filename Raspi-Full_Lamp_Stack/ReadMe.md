@@ -20,3 +20,12 @@ This Tutorial will explain how to setup a full lamp stack on the Raspberry Pi, u
             "NameOfWirelessRouter":
               password: "Password"
       ```
+   - 'sudo reboot' and it should have connected to your wireless router.
+
+   
+4) Connect Using SSH
+   - run the command in the termincal to enable ssh 'sudo systemctl ssh enable' or if the fails 'sudo systemctl ssh start'
+   - check to ensure ssh is up and running. 'sudo service ssh status'
+   - Download Putty to ssh into Raspi by connecting to the Rapi via IP Address [Just Type in IP into Putty and clicked Connect]
+   
+5)
