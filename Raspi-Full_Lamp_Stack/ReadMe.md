@@ -1,4 +1,4 @@
-This Tutorial will explain how to setup a full lamp stack on the Raspberry Pi, using Ubunto Server.
+This Tutorial will explain how to setup a full LAMP {Linux, Apache, MySQL, PHP} stack on the Raspberry Pi, using Ubunto Server.
 - This will be a Terminal, where you can create your lamp Stack.
 
 
