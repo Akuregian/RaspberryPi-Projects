@@ -1,5 +1,5 @@
 This Tutorial will explain how to setup a full LAMP {Linux, Apache, MySQL, PHP} stack on the Raspberry Pi, using Ubunto Server.
-- This will be a Terminal, where you can create your lamp Stack.
+- This allows for controlling the raspberry pi over a webpage as well as storing data on the raspberry pi's database [mySQL]
 
 
 1) Download the Raspi Pi Imager, Then Select Ubunto Server 32 bit and download this too a SD Card
@@ -10,7 +10,7 @@ This Tutorial will explain how to setup a full LAMP {Linux, Apache, MySQL, PHP} 
 3) At this point, You should have Ubuntu Server installed, BUT not connected to the wifi if you didnt hook it up too ethernet.
   - To solve this:
       - Navigate 'cd /etc/netplan' where there should be a '50-cloud-init.yaml' file. [Open this File using Vim]
-      - Under 'version: 2', start adding the following to connect wirelessly
+      - Under 'version: 2', start adding the following to connect wirelessly through Wifi
       ```yaml
       wifis:
         wlan0:
@@ -24,7 +24,7 @@ This Tutorial will explain how to setup a full LAMP {Linux, Apache, MySQL, PHP} 
 
    
 4) Connect Using SSH
-    - run the command in the termincal to enable ssh 'sudo systemctl ssh enable' or if the fails 'sudo systemctl ssh start'
+    - run the command in the termincal to enable ssh 'sudo systemctl ssh enable' or if this fails 'sudo systemctl ssh start'
     - check to ensure ssh is up and running. 'sudo service ssh status'
     - Download Putty to ssh into Raspi by connecting to the Rapi via IP Address [Just Type in IP into Putty and clicked Connect]
    
