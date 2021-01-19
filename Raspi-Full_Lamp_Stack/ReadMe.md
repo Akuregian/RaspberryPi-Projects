@@ -24,23 +24,23 @@ This Tutorial will explain how to setup a full LAMP {Linux, Apache, MySQL, PHP} 
 
    
 4) Connect Using SSH
-   - run the command in the termincal to enable ssh 'sudo systemctl ssh enable' or if the fails 'sudo systemctl ssh start'
-   - check to ensure ssh is up and running. 'sudo service ssh status'
-   - Download Putty to ssh into Raspi by connecting to the Rapi via IP Address [Just Type in IP into Putty and clicked Connect]
+    - run the command in the termincal to enable ssh 'sudo systemctl ssh enable' or if the fails 'sudo systemctl ssh start'
+    - check to ensure ssh is up and running. 'sudo service ssh status'
+    - Download Putty to ssh into Raspi by connecting to the Rapi via IP Address [Just Type in IP into Putty and clicked Connect]
    
 5) Install Some Packages:
-  - 'sudo apt-get install php libapache2-mod-php php-mysql'
-  - 'sudo apt-get install mysql'
-      - run the command to clean up security vulnerabilites 'sudo mysql_secure_installation'
+    - 'sudo apt-get install php libapache2-mod-php php-mysql'
+    - 'sudo apt-get install mysql'
+    - run the command to clean up security vulnerabilites 'sudo mysql_secure_installation'
 6) Navigate too 'cd /var/www' and change the privilages of the directory bt running the command 'sudo chown NameOfUser html' (chown[Change Owner Ship], NameOfUser: root@localhost, wher root is the user name.. another example ubuntu@ubuntu ---> username: ubuntu)
-  - cd into html and remove the index.html and replace it with index.php
-  - Add the script to test that everything is working:
+    - cd into html and remove the index.html and replace it with index.php
+    - Add the script to test that everything is working:
     ```php
      <?php
      phpinfo()
      ?> ```
      
-  - 'sudo service apache2 restart'
+    - 'sudo service apache2 restart'
   
 
-7
+7) You Should Now have Everything Setup to start creating a more sophisticated system
