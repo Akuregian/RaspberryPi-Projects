@@ -30,7 +30,7 @@ This Tutorial will explain how to setup a full LAMP {Linux, Apache, MySQL, PHP} 
    
 5) Install Some Packages:
     - 'sudo apt-get install php libapache2-mod-php php-mysql'
-    - 'sudo apt-get install mysql'
+    - 'sudo apt-get install mysql' or if that fails, use: 'sudo apt-get install mysql-server'
     - run the command to clean up security vulnerabilites 'sudo mysql_secure_installation'
 6) Navigate too 'cd /var/www' and change the privilages of the directory bt running the command 'sudo chown NameOfUser html' (chown[Change Owner Ship], NameOfUser: root@localhost, wher root is the user name.. another example ubuntu@ubuntu ---> username: ubuntu)
     - cd into html and remove the index.html and replace it with index.php
