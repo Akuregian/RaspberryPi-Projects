@@ -1,6 +1,6 @@
 
 <?php
-        include_once 'db.inc.php';
+        include_once 'database_connect.inc.php';
         $id = $_POST['id'];
 
 //      $removeQuery = "DELETE FROM Devices WHERE id = {$id}";
