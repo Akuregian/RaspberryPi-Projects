@@ -43,7 +43,10 @@ This Tutorial will explain how to setup a full LAMP {Linux, Apache, MySQL, PHP} 
     - 'sudo service apache2 restart'
   
 
-7) You Should Now have Everything Setup to start creating a more sophisticated system
-  -- Log into mysql, and add a USER and GRANTPERMISSION using:  'CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';' username: 'Raspi' Password: 'pi'
-  -- This will Run the Database.sql and create the database model: 'sudo mysql < database.sql'
+7) NEXT:
+  - Log into mysql, and add a USER and GRANTPERMISSION using:  
+      'CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password'; {username: 'Raspi' Password: 'pi'}
+  - Next Grant Permission Using:
+     'GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';'
+  - Now create the database model: 'sudo mysql < database.sql'
   
