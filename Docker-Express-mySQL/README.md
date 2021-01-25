@@ -14,4 +14,4 @@
 2. [OPTIONAL] # Executing the Docker Command Without Sudo 
 
     run : ``` sudo usermod -aG docker $USER ```
-    ``` $USER ``` is an environment variable that holds your username.
+    - ``` $USER ``` is an environment variable that holds your username.
