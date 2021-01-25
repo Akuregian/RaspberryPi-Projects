@@ -19,4 +19,4 @@
     ``` docker container run hello-world ```
     
     
-- More Infor can be found: https://linuxize.com/post/how-to-install-and-use-docker-on-raspberry-pi/
+- More Info can be found: https://linuxize.com/post/how-to-install-and-use-docker-on-raspberry-pi/
