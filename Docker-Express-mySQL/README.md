@@ -11,7 +11,7 @@
     ```
     sh get-docker.sh
     ```
-2. [OPTIONAL] # Executing the Docker Command Without Sudo 
+2. # Executing the Docker Command Without Sudo [OPTIONAL] 
 
     run : ``` sudo usermod -aG docker $USER ```
     - ``` $USER ``` is an environment variable that holds your username. You dont need to change anything, just run the command
