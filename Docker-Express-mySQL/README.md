@@ -1,13 +1,17 @@
 # Install Docker on Raspberry Pi
 ## Installing Docker on Raspberry Pi is just a matter of running a few commands.
-- First, download the Docker installation script using the following curl command :
-```
-curl -fsSL https://get.docker.com -o get-docker.sh
+1. First, download the Docker installation script using the following curl command :
+    ```
+    curl -fsSL https://get.docker.com -o get-docker.sh
 
-```
+    ```
 
-Once the download is complete, execute the script by typing:
+  - Once the download is complete, execute the script by typing:
 
-```
-sh get-docker.sh
-```
+    ```
+    sh get-docker.sh
+    ```
+2. [OPTIONAL] # Executing the Docker Command Without Sudo 
+
+    run : ``` sudo usermod -aG docker $USER ```
+    ``` $USER ``` is an environment variable that holds your username.
