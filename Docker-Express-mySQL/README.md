@@ -29,7 +29,7 @@
     - View All Images: docker image ls
     - run a container: docker container run [docker-container]
 ## Docker-Compose:
-    - Is used for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. 
+```    - Is used for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. 
     
     - Then, with a single command, you create and start all the services from your configuration.
     
@@ -41,7 +41,7 @@
 
         - 3. Run docker-compose up and Compose starts and runs your entire app.
         
-        - A docker-compose.yml looks like this:
+        - A docker-compose.yml looks like this:   ```
         
         version: "3.9"  # optional since v1.27.0
         services:
@@ -59,6 +59,11 @@
         volumes:
           logvolume01: {}
         
+        
+        
+        1. you create the Dockerfile and define the steps that build up your images
+        2. you issue the docker build command which will build a Docker image from your Dockerfile
+        3. now you can use this image to start containers with the docker run command
     
     
     
