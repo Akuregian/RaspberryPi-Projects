@@ -42,7 +42,7 @@
         - 3. Run docker-compose up and Compose starts and runs your entire app.
         
         - A docker-compose.yml looks like this:
-        ```haml
+        ```python
         version: "3.9"  # optional since v1.27.0
         services:
           web:
