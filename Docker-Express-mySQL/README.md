@@ -23,11 +23,16 @@
 
 
 ### ---------------------------------------------------------------------------------------------------------------------
+https://takacsmark.com/dockerfile-tutorial-by-example-dockerfile-best-practices-2018/
+
 -  Now you can add Docker Images to containers and create the enviroment you desire.
 ## Commands:
     - Add New Images --> Go To Docker Hub and grab the command...  ' docker pull [ImageName]  '
     - View All Images: docker image ls
+    - Build Image: docker build -t [NameOfContainer] .  
     - run a container: docker container run [docker-container]
+    - check for dangling imgages: docker images --filter "dangling=true"
+    - Remove Dangling Images: docker rmi $(docker images -q --filter "dangling=true")
 ## Docker-Compose:
 ```    - Is used for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. 
     
@@ -65,7 +70,21 @@
         2. you issue the docker build command which will build a Docker image from your Dockerfile
         3. now you can use this image to start containers with the docker run command
     
+    ## ---------------------------------------------------------------------------------------------------------------------
     
+        1. Create the Dockerfile
+            - Create an empty directory for this task and create an empty file in that directory with the name Dockerfile.  
+        2. Define the base image with FROM
+            - Every Dockerfile must start with the FROM instruction. The idea behind is that you need a starting point to build your image. 
+            - You can start FROM scratch, scratch is an explicitly empty image on the Docker store that is used to build base images like Alpine, Debian and so on.
+            - you can also start FROM ubuntu:version or FROM alpine:version
+            
+            
+            
+            
+            
+
+
     
     
     
