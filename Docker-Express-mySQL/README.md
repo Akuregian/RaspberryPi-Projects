@@ -33,6 +33,12 @@ https://takacsmark.com/dockerfile-tutorial-by-example-dockerfile-best-practices-
     - run a container: docker container run [docker-container]
     - check for dangling imgages: docker images --filter "dangling=true"
     - Remove Dangling Images: docker rmi $(docker images -q --filter "dangling=true")
+    - Remove All Stopped Containers: docker rm $(docker ps -a -q)
+    
+## Routine Clean up:
+    - ### Check All Images: docker images ls -a
+    - ### Check For Dangling Images: docker images --filter "dangling=true"
+    - ### Remove Dangling Images: docker rmi $(docker images -q --filter "dangling=true")
 ## Docker-Compose:
 ```    - Is used for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. 
     
