@@ -42,7 +42,7 @@
         - 3. Run docker-compose up and Compose starts and runs your entire app.
         
         - A docker-compose.yml looks like this:
-        ```python
+        
         version: "3.9"  # optional since v1.27.0
         services:
           web:
@@ -58,7 +58,6 @@
             image: redis
         volumes:
           logvolume01: {}
-        ```
         
     
     
