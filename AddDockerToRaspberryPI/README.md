@@ -1,8 +1,8 @@
 1. Install Docker
 - `curl -sSL https://get.docker.com | sh`
 
-2. Add permission to Pi User to run Docker Commands
-- `sudo usermod -aG docker pi`
+2. Add permission to User to run Docker Commands
+- `sudo usermod -aG docker [USER]`
 
 Reboot here or run the next commands with a sudo
 
