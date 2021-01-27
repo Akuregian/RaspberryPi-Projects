@@ -22,3 +22,5 @@ Reboot here or run the next commands with a sudo
 Boom! 🔥 It's done!
 
 To Get Rid Of Sudo:  'sudo gpasswd -a $USER docker'
+
+** RESTART or REBOOT Device **
