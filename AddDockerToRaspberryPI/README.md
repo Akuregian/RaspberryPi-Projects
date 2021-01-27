@@ -20,3 +20,5 @@ Reboot here or run the next commands with a sudo
 - `sudo pip3 -v install docker-compose`
 
 Boom! 🔥 It's done!
+
+To Get Rid Of Sudo:  'sudo gpasswd -a $USER docker'
