@@ -30,15 +30,15 @@ To Get Rid Of Sudo:  'sudo gpasswd -a $USER docker'
   Steps For Setting Docker Conatiner for [Amazon Dev Alexa Rasp] Project
   somelibs:['unzip', '']
    1. After Setting Up the Docker Container from Above
-    - 'sudo apt-get python3-dev'
-    - 'python3 -m pip install Flask-Ask' .... If fails: 'pip install git+https://github.com/johnwheeler/flask-ask.git@v0.8.8'
-    - 'sudo apt install python3-testresources'
-    - 'pip3 install --upgrade setuptools '
-    - 'pip3 install 'cryptography<2.2'' ---> then 'pip3 install 'cryptography==2.5''
-    - 'sudo apt-get install rpi.gpio'
-    - 'sudo apt-get install unzip'
-    - 'wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
-     - 'unzip ngrok-stable-linux-arm.zip' 
-     - Create an Account For NGROK So that it doesnt reset the URL link it created for you
-     - Login and Grab the Auth Token, then run--> './ngrok authtoken <TOKEN>'
-    - 
+      - 'sudo apt-get python3-dev'
+      - 'python3 -m pip install Flask-Ask' .... If fails: 'pip install git+https://github.com/johnwheeler/flask-ask.git@v0.8.8'
+      - 'sudo apt install python3-testresources'
+      - 'pip3 install --upgrade setuptools '
+      - 'pip3 install 'cryptography<2.2'' ---> then 'pip3 install 'cryptography==2.5''
+      - 'sudo apt-get install rpi.gpio'
+      - 'sudo apt-get install unzip'
+      - 'wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
+      - 'unzip ngrok-stable-linux-arm.zip' 
+      - Create an Account For NGROK So that it doesnt reset the URL link it created for you
+      - Login and Grab the Auth Token, then run--> './ngrok authtoken <TOKEN>'
+      - 
